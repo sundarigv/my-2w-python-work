@@ -9,8 +9,13 @@ def login():
             print("Login successful!")
         else:
             print("Incorrect password.")
+            forgotpassword()
     else:
         print("Username not found.")
-
+def forgotPassword():
+    if username.exists() == true
+        print("Update password")
+        newPassword = input("Enter your new password : ")
+        
 # Example usage call the function
 login()
