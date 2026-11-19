@@ -1,6 +1,5 @@
 users = {"user1": "password1", "user2": "password2"}
 
-#Input the username and password from user
 def login():
     username = input("Enter your username: ")
     password = input("Enter your password: ")
@@ -18,5 +17,5 @@ def forgotPassword():
         print("Update password")
         newPassword = input("Enter your new password : ")
         
-# Example
+# Example usage call the function
 login()
