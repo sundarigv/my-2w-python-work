@@ -10,7 +10,7 @@ print("Customer name: ",name)
 shopping_cart.sort()             #sorts the list of items in alphaetical order.
 print("Items in cart:", shopping_cart)
 
-shopping_cart[1] = "butter"       #update the second item in the List.
+shopping_cart[2] = "butter"       #update the third item in the List.
 print("Items in cart after update : ",shopping_cart)
 
 shopping_cart.append("flour")
